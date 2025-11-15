@@ -1,7 +1,7 @@
 version: '3.8'
 
 services:
-  choujiang-app:
+  lottery-app:
     build:
       context: .
       dockerfile: Dockerfile
@@ -10,4 +10,4 @@ services:
     environment:
       - NODE_ENV=production
     restart: unless-stopped
-    container_name: choujiang-app
+    container_name: lottery-app
